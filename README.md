@@ -21,3 +21,6 @@
 
 # STITP Demo
 点击Click，点击传感器，选中不同的Button查看各个传感器情况
+
+# AccelerometerDemo
+利用加速度传感器，摇一摇随机改变背景色。
