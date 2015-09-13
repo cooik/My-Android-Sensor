@@ -24,3 +24,7 @@
 
 # AccelerometerDemo
 利用加速度传感器，摇一摇随机改变背景色。
+
+# CompassDemo
+
+自定义罗盘
