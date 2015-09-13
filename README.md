@@ -18,3 +18,6 @@
 |TYPE_STEP_COUNTER|计步器|
 
 了解更多：[Sensor官方文档](http://developer.android.com/reference/android/hardware/Sensor.html)
+
+# STITP Demo
+点击Click，点击传感器，选中不同的Button查看各个传感器情况
