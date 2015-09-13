@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#808080"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#808080"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#000"
+            android:gravity="center_horizontal"
+            android:padding="10dp"
+            android:text="传感器名称"
+            android:textColor="#fff" />
+
+        <TextView
+            android:id="@+id/sensor_info"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginBottom="8dp"
+            android:background="#fff"
+            android:padding="5dp"
+            android:text="数据" />
+
+        <Button
+            android:id="@+id/accelerometer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="10dp"
+            android:background="#000"
+            android:padding="8dp"
+            android:text="加速度传感器"
+            android:textColor="#fff" />
+
+        <Button
+            android:id="@+id/magnetometer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="10dp"
+            android:background="#000"
+            android:padding="8dp"
+            android:text="地磁传感器"
+            android:textColor="#fff" />
+
+        <Button
+            android:id="@+id/orientation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="10dp"
+            android:background="#000"
+            android:padding="8dp"
+            android:text="方向传感器"
+            android:textColor="#fff" />
+
+        <Button
+            android:id="@+id/gravity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="10dp"
+            android:background="#000"
+            android:padding="8dp"
+            android:text="重力传感器"
+            android:textColor="#fff" />
+
+        <Button
+            android:id="@+id/linear_acceleration"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="10dp"
+            android:background="#000"
+            android:padding="8dp"
+            android:text="线性加速度"
+            android:textColor="#fff" />
+
+        <Button
+            android:id="@+id/pressure"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="10dp"
+            android:background="#000"
+            android:padding="8dp"
+            android:text="压力传感器"
+            android:textColor="#fff" />
+
+        <Button
+            android:id="@+id/rotation_vector"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="10dp"
+            android:background="#000"
+            android:padding="8dp"
+            android:text="旋转矢量"
+            android:textColor="#fff" />
+
+        <Button
+            android:id="@+id/gyroscope"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="10dp"
+            android:background="#000"
+            android:padding="8dp"
+            android:text="陀螺仪传感器"
+            android:textColor="#fff" />
+
+        <Button
+            android:id="@+id/temperature"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="10dp"
+            android:background="#000"
+            android:padding="8dp"
+            android:text="温度传感器"
+            android:textColor="#fff" />
+
+        <Button
+            android:id="@+id/proximity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="10dp"
+            android:background="#000"
+            android:padding="8dp"
+            android:text="近距离感应"
+            android:textColor="#fff" />
+
+        <Button
+            android:id="@+id/light"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="10dp"
+            android:background="#000"
+            android:padding="8dp"
+            android:text="光传感器"
+            android:textColor="#fff" />
+
+        <Button
+            android:id="@+id/stepcounter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="10dp"
+            android:background="#000"
+            android:padding="8dp"
+            android:text="计步器"
+            android:textColor="#fff" />
+    </LinearLayout>
+
+</ScrollView>
